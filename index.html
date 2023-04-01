@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Oh my food!</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="logo">
+        <a href="index.html"><img src="./images/logo/ohmyfood.png"></a>
+
+    </header>
+
+    <main>
+        <!--FORM-->
+        <section class="city">
+            <form class="city__form">
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <input type="search" class="city__location" placeholder="Paris, Belleville">
+            </form>
+        </section>
+
+        <section class="explorer">
+            <div class="explorer__description">
+                <h1>Réservez le menu qui vous convient</h1>
+                <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+                <button class="explorer__button">Explorer nos restaurants</button>
+            </div>
+        </section>
+
+        <!--FONCTIONNEMENT-->
+
+         <section class="Function">
+            <div class="Function__container">
+                <h2 class="Function__title">Fonctionnement</h2>
+                <ol class="Function__list">
+                    <li class="Function__step">
+                        <i class="fas fa-mobile-alt Function__icon"></i>
+                        <span class="Function__text">Choisissez un restaurant</span>
+                    </li>
+
+                    <li class="Function__step">
+                        <i class="fas fa-list Function__icon"></i>
+                        <span class="Function__text">Composez votre menu</span>
+                    </li>
+
+                    <li class="Function__step">
+                        <i class="fas fa-store Function__icon"></i>
+                        <span class="Function__text">Dégustez au restaurant</span>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+    <!-- RESTAURANTS -->
+
+    <section class="restaurant">
+        <div class="restaurant__container">
+            <h2 class="restaurant__tittle">Restaurants</h2>
+            <div class="restaurant__cards">
+                <!--La palette du gout-->
+                <a href="#" class="card">
+                    <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Assiette de saumon avec de la salade" class="card__image">
+                    <div class="card__new">
+                        <p class="card__newtext">Nouveau</p></div>
+                    <div class="card__content">
+                        <div class="card__text">
+                            <h3 class="card__title">La palette du goût</h3>
+                            <span class="card__subtitle">Ménilmontant</span>
+                        </div>
+                    </div>
+
+                        <div class="card__heart">
+                            <i class="fa-sharp fa-regular fa-heart fa-xl icon-regular"></i>
+                            <i class="fa-sharp fa-solid fa-heart fa-xl icon-solid"></i>  
+                        </div>
+                    
+                </a>
+                <!-- La note enchantee -->
+                <a href="#" class="card">
+                    <img src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Assiette de pommes de terres, sauce tomates et légumes" class="card__image">
+                    <div class="card__new">
+                        <p class="card__newtext">Nouveau</p></div>
+                    <div class="card__content">
+                        <div class="card__text">
+                            <h3 class="card__title">La note enchantée</h3>
+                            <span class="card__subtitle">Charonne</span>
+                        </div>
+                    </div>
+
+                        <div class="card__heart">
+                            <i class="fa-sharp fa-regular fa-heart fa-xl icon-regular"></i>
+                            <i class="fa-sharp fa-solid fa-heart fa-xl icon-solid"></i>  
+                        </div>
+                    
+                </a>
+            </div>
+        </div>
+    </section>
+    </main>
+</body>
+</html>
