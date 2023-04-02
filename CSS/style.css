@@ -284,3 +284,31 @@ i.icon-solid:not(:hover) {
     transition: opacity 0.4s ease-in 0.2s;
     opacity: 0;
 }
+
+
+/*******footer*****/
+
+
+.footer {
+    background-color: #353535;
+    padding: 22px 25px 35px;
+    color: #FFFFFF;
+}
+.footer__column {
+    margin-top: 10px;
+}
+.footer a {
+    color: #FFFFFF;
+    font-size: 16PX;
+    font-weight: 400;
+}
+.footer__link {
+    margin-left: 11px;
+}
+.footer__links {
+    margin-left: 6px;
+}
+
+.footer__icon {
+    fill: #008766;
+}
