@@ -118,7 +118,6 @@ i.icon-solid:not(:hover) {
     opacity: 0;
 }
 
-
 /***********ENTREES********/
 
 .Container-menu {
@@ -256,4 +255,200 @@ i.icon-solid:not(:hover) {
 
 .Container-menu__card:hover .Container-menu__select i {
     transform: rotate(360deg);
+}
+
+
+/**********BOUTON*********/
+
+.order-button {
+    border-radius: 25px;
+    background:  linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-weight: 500;
+    color: #FFFFfF;
+    font-size: 16px;
+    margin-bottom: 40px;
+    display: block;
+    margin: 0 auto;
+    width: 186px;
+    height: 50px;
+    margin-top: 40px;
+    
+}
+
+.order-button:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
+    transition: ease-in-out 0.4s;
+}
+
+
+/*******footer*****/
+
+
+.footer {
+    background-color: #353535;
+    padding: 22px 25px 35px;
+    color: #FFFFFF;
+}
+.footer__column {
+    margin-top: 10px;
+}
+.footer a {
+    color: #FFFFFF;
+    font-size: 16PX;
+    font-weight: 400;
+}
+.footer__link {
+    margin-left: 11px;
+}
+.footer__links {
+    margin-left: 6px;
+}
+
+.footer__icon {
+    fill: #008766;
+}
+
+/*********Tablets/small-device***************/
+
+@media screen and (min-width:768px) and (max-width:1025px) {
+
+/*****HEADER***********/
+
+.Header img {
+    width: 200px;
+    height: auto;
+}
+    
+.Header__arrow {
+    left: 40px;
+        
+}
+
+/**********MAIN/MENU***************/
+
+.Main {
+    margin: 0 80px;
+
+}
+
+.Container-menu {
+    padding: 25px 50px 0;
+    margin: 0;
+}
+ 
+  /******title/heart***********/
+
+.Main__content {
+    margin: 50PX 0 0 0;
+    justify-content: center;
+    gap: 25px;
+}
+  /*******footer*****/
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 47px 0 30px 0 ;
+}
+
+.footer__column {
+    margin-top: 20px;
+}
+
+.footer__icon {
+    margin: 0;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+}
+
+/*********DEKSTOP***************/
+
+@media screen and (min-width:1025px) {
+
+
+  /*******HEADER*********/
+    
+.logo img {
+    width: 200px;
+    height: auto;
+        
+    }
+
+
+.Header__arrow {
+   left: 30px;
+            
+}
+
+/**********MAIN/MENU***************/
+
+.background__img{
+    height: 383px;
+}
+
+.Main {
+    margin: 0 190px;
+
+}
+
+.Container-menu {
+    padding: 40px 210px 0;
+    margin: 0;
+}
+ 
+/******title/heart***********/
+
+.Main__content {
+    margin: 50PX 0 0 0;
+    justify-content: center;
+    gap: 25px;
+}
+
+/*******footer*****/
+
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 47px 0 30px 0 ;
+}
+
+.footer__icon {
+    margin: 0 27px 0 100px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.footer__column {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.footer__column__margin {
+
+    margin-right: 30px;
+}
+    
 }
