@@ -584,8 +584,8 @@ height: auto;
 
   .Function__icon {
     display: flex;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .Function__text {

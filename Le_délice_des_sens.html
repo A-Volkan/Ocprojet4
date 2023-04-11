@@ -12,155 +12,179 @@
       referrerpolicy="no-referrer"
     >
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/Menu.css">
     <title>Oh my food!</title>
 </head>
+
+
 <body>
-    <!--LOADING-->
-
-    <div id="preloader">
-        <div id="loader"></div>
-      </div>
-
     <!--HEADER-->
-    <header class="logo">
-        <a href="index.html"><img src="./images/logo/ohmyfood.png" alt="Logo oh my food" > </a>
-
+    <header class="Header">
+        <a href="index.html">
+            <i class="fa-arrow-left fas Header__arrow"></i></a>
+            <img src="./images/logo/ohmyfood.png" alt="Logo oh my food" class="logo">
     </header>
 
-    <main>
-        <!--FORM-->
-        <section class="city">
-            <form class="city__form">
-                <i class="fa-sharp fa-solid fa-location-dot"></i>
-                <input type="search" class="city__location" placeholder="Paris, Belleville">
-            </form>
-        </section>
+    <!--BACKGROUND-->
+    <div class="Background">
+        <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Assiette de saumon" class="background__img">
+    </div>
 
-        <section class="explorer">
-            <div class="explorer__description">
-                <h1>Réservez le menu qui vous convient</h1>
-                <p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                <button class="explorer__button">Explorer nos restaurants</button>
-            </div>
-        </section>
 
-        <!--FONCTIONNEMENT-->
+    <!--MAIN-TITLE-->
 
-         <section class="Function">
-            <div class="Function__container">
-                <h2 class="Function__title">Fonctionnement</h2>
-                <ol class="Function__list">
-                    <li class="Function__step">
-                        <i class="fas fa-mobile-alt Function__icon"></i>
-                        <span class="Function__text">Choisissez un restaurant</span>
-                    </li>
-
-                    <li class="Function__step">
-                        <i class="fas fa-list Function__icon"></i>
-                        <span class="Function__text">Composez votre menu</span>
-                    </li>
-
-                    <li class="Function__step">
-                        <i class="fas fa-store Function__icon"></i>
-                        <span class="Function__text">Dégustez au restaurant</span>
-                    </li>
-                </ol>
-            </div>
-        </section>
-
-    <!-- RESTAURANTS -->
-
-    <section class="restaurant">
-        <div class="restaurant__container">
-            <h2 class="restaurant__tittle">Restaurants</h2>
-            <div class="restaurant__cards">
-
-                <!--La palette du gout-->
-
-                <a href="La_palette_du_gout.html" class="card">
-                    <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Assiette de saumon avec de la salade" class="card__image">
-                    <div class="card__new">
-                        <p class="card__newtext">Nouveau</p></div>
-                    <div class="card__content">
-                        <div class="card__text">
-                            <h3 class="card__title">La palette du goût</h3>
-                            <span class="card__subtitle">Ménilmontant</span>
-                        </div>
-                    </div>
-
-                        <div class="card__heart">
-                            <i class="fa-sharp fa-regular fa-heart fa-xl icon-regular"></i>
-                            <i class="fa-sharp fa-solid fa-heart fa-xl icon-solid"></i>  
-                        </div>
-                    </a>
-
-                <!-- La note enchantee -->
-
-                <a href="La_note_enchantée.html" class="card">
-                    <img src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Assiette de pommes de terres, sauce tomates et légumes" class="card__image">
-                    <div class="card__new">
-                        <p class="card__newtext">Nouveau</p></div>
-                    <div class="card__content">
-                        <div class="card__text">
-                            <h3 class="card__title">La note enchantée</h3>
-                            <span class="card__subtitle">Charonne</span>
-                        </div>
-                    </div>
-
-                        <div class="card__heart">
-                            <i class="fa-sharp fa-regular fa-heart fa-xl icon-regular"></i>
-                            <i class="fa-sharp fa-solid fa-heart fa-xl icon-solid"></i>  
-                        </div>
-                    
-                </a>
-
-                 <!-- A la Francaise -->
-
-                 <a href="A_la_Francaise.html" class="card">
-                    <img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Tartine avec pousses d'épinards et oeufs" class="card__image">
-                    <div class="card__new">
-                        <p class="card__newtext">Nouveau</p></div>
-                    <div class="card__content">
-                        <div class="card__text">
-                            <h3 class="card__title">À la française</h3>
-                            <span class="card__subtitle">Cité Rouge</span>
-                        </div>
-                    </div>
-
-                        <div class="card__heart">
-                            <i class="fa-sharp fa-regular fa-heart fa-xl icon-regular"></i>
-                            <i class="fa-sharp fa-solid fa-heart fa-xl icon-solid"></i>  
-                        </div>
-                    
-                </a>
-
-                 <!-- Le délice des sens -->
-
-                 <a href="Le_délice_des_sens.html" class="card">
-                    <img src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Assiette de poisson et de légumes" class="card__image">
-                    <div class="card__new">
-                        <p class="card__newtext">Nouveau</p></div>
-                    <div class="card__content">
-                        <div class="card__text">
-                            <h3 class="card__title">Le délice des sens</h3>
-                            <span class="card__subtitle">Folie-Méricourt</span>
-                        </div>
-                    </div>
-
-                        <div class="card__heart">
-                            <i class="fa-sharp fa-regular fa-heart fa-xl icon-regular"></i>
-                            <i class="fa-sharp fa-solid fa-heart fa-xl icon-solid"></i>  
-                        </div>
-                    
-                </a>
-
+    <main class="Main">
+        <div class="Main__menu">
+        <div class="Main__content">
+            <h1 class="Main__title">Le délice des sens</h1>
+            <div class="card__heart">
+                <i class="fa-sharp fa-regular fa-heart fa-xl icon-regular"></i>
+                <i class="fa-sharp fa-solid fa-heart fa-xl icon-solid"></i>  
             </div>
         </div>
-    </section>
+    </div>
+
+    <!--MENU-->
+
+        <!--ENTREES-->
+
+        <div class="Container-menu">
+            <h2>ENTRÉES</h2>
+
+            <div class="Container-menu__card animation-delay-01 ">
+ 
+            <div class="Container-menu__text">
+                <h3>Tartare de thon</h3>
+                <p>Assaisonné au yuzu</p>
+            </div>
+            
+            <div class="Container-menu__price">25€</div>
+            <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+        </div>
+
+        <div class="Container-menu__card animation-delay-02 ">
+ 
+        <div class="Container-menu__text">
+            <h3>Bouchée de homard croustillant</h3>
+            <p>Et sa farandole de petits légumes</p>
+        </div>
+        
+        <div class="Container-menu__price">35€</div>
+        <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+    </div>
+
+
+    <div class="Container-menu__card animation-delay-03 ">
+ 
+            <div class="Container-menu__text">
+                <h3>Velouté de cèpes</h3>
+                <p>Aux truffes</p>
+            </div>
+            
+            <div class="Container-menu__price">20€</div>
+            <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+        </div>
+        </div>
+
+         <!--PLATS-->
+
+         <div class="Container-menu">
+            <h2>PLATS</h2>
+
+            <div class="Container-menu__card animation-delay-01 ">
+ 
+            <div class="Container-menu__text">
+                <h3>Poulet rôti aux herbes de Provence</h3>
+                <p>Et sa crème de truffe</p>
+            </div>
+            
+            <div class="Container-menu__price">40€</div>
+            <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+        </div>
+
+        <div class="Container-menu__card animation-delay-02 ">
+ 
+        <div class="Container-menu__text">
+            <h3>Langouste rôtie</h3>
+            <p>Et ses légumes de saison</p>
+        </div>
+        
+        <div class="Container-menu__price">35€</div>
+        <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+    </div>
+
+
+    <div class="Container-menu__card animation-delay-03 ">
+ 
+            <div class="Container-menu__text">
+                <h3>Côte de bœuf Angus</h3>
+                <p>Et sa purée de panais</p>
+            </div>
+            
+            <div class="Container-menu__price">44€</div>
+            <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+        </div>
+        </div>
+
+
+          <!--DESSERTS-->
+
+          <div class="Container-menu">
+            <h2>DESSERTS</h2>
+
+            <div class="Container-menu__card animation-delay-01 ">
+ 
+            <div class="Container-menu__text">
+                <h3>Farandole de desserts</h3>
+                <p>Du chef</p>
+            </div>
+            
+            <div class="Container-menu__price">18€</div>
+            <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+        </div>
+
+        <div class="Container-menu__card animation-delay-02 ">
+ 
+        <div class="Container-menu__text">
+            <h3>Crème brulée</h3>
+            <p>Revisitée</p>
+        </div>
+        
+        <div class="Container-menu__price">22€</div>
+        <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+    </div>
+
+
+    <div class="Container-menu__card animation-delay-03 ">
+ 
+            <div class="Container-menu__text">
+                <h3>Tiramisu</h3>
+                <p>À la noisette</p>
+            </div>
+            
+            <div class="Container-menu__price">23€</div>
+            <div class="Container-menu__select"><i class="fa-solid fa-circle-check"></i></div>
+
+        </div>
+        </div>
+
+        <!--BOUTON-->
+
+        <button class="order-button">Commander</button>
+
     </main>
 
-     <!-- footer -->
+
+    <!-- footer -->
 
     <footer class="footer">
 
@@ -203,5 +227,6 @@
         </div>
 
     </footer>
+
 </body>
 </html>
