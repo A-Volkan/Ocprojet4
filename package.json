@@ -1,0 +1,11 @@
+{
+  "name": "oc-projet-4-ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 4 : OH MY FOOD !",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch /assets/SASS/Style.scss:/assets/CSS/Style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,66 @@
+/******HEADER MENU************/
+
+header {
+    position: relative;
+
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 14px 0px 15px;
+
+
+    img {
+        width: 162px;
+        height: auto;
+    }
+
+    &__arrow {
+        position: absolute;
+        width: 18px;
+        left: 23px;
+        top: 20px;
+        font-size: larger;
+    }
+}
+
+/*********Tablets/small-device***************/
+
+@media screen and (min-width:768px) and (max-width:1025px) {
+
+    /*****HEADER***********/
+
+    .Header img {
+        width: 200px;
+        height: auto;
+    }
+
+    .Header__arrow {
+        left: 40px;
+
+    }
+}
+
+/*********DEKSTOP***************/
+
+@media screen and (min-width:1025px) {
+
+
+    /*******HEADER*********/
+
+    .logo img {
+        width: 200px;
+        height: auto;
+
+    }
+
+
+    .Header__arrow {
+        left: 30px;
+
+    }
+}

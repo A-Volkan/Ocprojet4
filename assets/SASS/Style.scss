@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+@import "./Base/uni";
+
+@import "./utils/variables";
+@import "./utils/mixin";
+@import "./utils/placeholders";
+
+@import "./layout/header";
+@import "./layout/loader";
+
+@import "./Components/button";
+
+@import "./Pages/accueil";
+@import "./layout/footer";

@@ -1,0 +1,56 @@
+/********HEADER**********/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+
+
+    a {
+        margin: 15px 0 5px;
+    }
+
+    img {
+        width: 162px;
+        height: auto;
+    }
+
+}
+
+
+/***************TABLET***************/
+
+@media screen and (min-width:768px) and (max-width:1025px) {
+
+
+
+    .logo img {
+
+        width: 200px;
+        height: auto;
+
+    }
+
+}
+
+/************DESKTOP*****************/
+
+@media screen and (min-width:1025px) {
+
+
+
+
+    .logo img {
+
+        width: 200px;
+        height: auto;
+
+    }
+
+    .logo a {
+        margin: 30px 0 31px;
+    }
+
+}

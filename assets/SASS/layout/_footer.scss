@@ -1,0 +1,116 @@
+/********FOOTER************/
+
+
+.footer {
+    background-color: #353535;
+    padding: 22px 25px 35px;
+    color: #FFFFFF;
+
+    a {
+        color: #FFFFFF;
+        font-size: 16PX;
+        font-weight: 400;
+    }
+
+
+    &__icon {
+        fill: #008766;
+    }
+
+    &__column {
+        margin-top: 10px;
+    }
+
+    &__link {
+        margin-left: 11px;
+    }
+
+    &__links {
+        margin-left: 6px;
+    }
+}
+
+
+
+/******************TABLET************************/
+
+
+
+@media screen and (min-width:768px) and (max-width:1025px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 47px 0 30px 0;
+
+        &__icon {
+            margin: 0px;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+
+        &__column {
+            margin-top: 20px;
+        }
+
+
+        &__link {
+            margin-left: 5px;
+        }
+
+        &__links {
+            margin-left: 3px;
+        }
+    }
+
+}
+
+/*************DESKTOP**********************/
+
+@media screen and (min-width:1025px) {
+
+    .footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 47px 0 30px 0;
+
+
+        &__icon {
+            margin: 0 27px 0 100px;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+        }
+
+        &__column {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+
+        &__column__margin {
+
+            margin-right: 20px;
+        }
+
+        &__link {
+            margin-left: 5px;
+        }
+
+        &__links {
+            margin-left: 3px;
+        }
+    }
+
+}
